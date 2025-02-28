@@ -127,7 +127,7 @@ function App() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2 transform transition-all duration-500 hover:scale-105">
               <img
-                src="../public/images/antonio.jpg"
+                src="/images/antonio.jpg"
                 alt="Foto de Antonio"
                 className="rounded-2xl w-80 h-80 object-cover shadow-2xl mx-auto"
               />
@@ -174,7 +174,7 @@ function App() {
                             group-hover:shadow-indigo-500/20 h-full flex flex-col">
                 <div className="relative overflow-hidden h-56 flex items-center justify-center">
                   <img
-                    src="../public/images/emprendimiento.PNG"
+                    src="/images/emprendimiento.PNG"
                     alt="Web de Emprendimiento"
                     className="w-full h-auto object-contain transition-all duration-700 transform group-hover:scale-110"
                   />
@@ -231,7 +231,7 @@ function App() {
                             group-hover:shadow-indigo-500/20 h-full flex flex-col">
                 <div className="relative overflow-hidden h-56 flex items-center justify-center">
                   <img
-                    src="../public/images/gasStation.PNG" 
+                    src="/images/gasStation.PNG" 
                     alt="App de Gasolineras"
                     className="w-full h-auto object-contain transition-all duration-700 transform group-hover:scale-110"
                   />
@@ -289,7 +289,7 @@ function App() {
                             group-hover:shadow-indigo-500/20 h-full flex flex-col">
                 <div className="relative overflow-hidden h-56 flex items-center justify-center">
                   <img
-                    src="../public/images/eternalDescent.PNG"
+                    src="/images/eternalDescent.PNG"
                     alt="Eternal Descent"
                     className="w-full h-auto object-contain transition-all duration-700 transform group-hover:scale-110"
                   />
@@ -345,7 +345,7 @@ function App() {
                             group-hover:shadow-indigo-500/20 h-full flex flex-col">
                 <div className="relative overflow-hidden h-56 flex items-center justify-center">
                   <img
-                    src="../public/images/spotify.PNG"
+                    src="/images/spotify.PNG"
                     alt="Clon de Spotify"
                     className="w-full h-auto object-contain transition-all duration-700 transform group-hover:scale-110"
                   />
@@ -431,7 +431,7 @@ function App() {
           </div>
           
           <div className="flex justify-center">
-            <a href="../public/download/CurriculumAntonioMunoz.pdf" download className="w-48 flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1">
+            <a href="/download/CurriculumAntonioMunoz.pdf" download className="w-48 flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-full transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1">
               <svg className="w-5 h-5" fill="pdf" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
               </svg>
